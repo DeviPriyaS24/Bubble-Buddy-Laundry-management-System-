@@ -5,6 +5,10 @@ import Landing from "./pages/Landing";
 import Auth from "./pages/Auth";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Services from "./pages/Services";
+import ServiceDetails from "./pages/ServiceDetails";
+
+
 
 
 
@@ -16,6 +20,8 @@ function App() {
         <Route path='/' element={<Landing />} />
         <Route path='/login' element={<Auth />} />
         <Route path='/register' element={<Auth insideRegister = {true} />}/>
+        <Route path='/services' element={<Services/>}/>
+        <Route path='/servicedetails/:id' element={<ServiceDetails/>}/>
       </Routes>
       <Footer/>
     </>
