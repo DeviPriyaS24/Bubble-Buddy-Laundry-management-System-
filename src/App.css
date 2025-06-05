@@ -1,0 +1,11 @@
+*{
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* landing page */
+.banner{
+  background-image: url('https://cdn.pixabay.com/photo/2022/12/13/10/18/birth-7653066_1280.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 90vh;
+}
