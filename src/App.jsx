@@ -7,6 +7,8 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Services from "./pages/Services";
 import ServiceDetails from "./pages/ServiceDetails";
+import CustomerDashboard from "./pages/CustomerDashboard";
+
 
 
 
@@ -22,6 +24,7 @@ function App() {
         <Route path='/register' element={<Auth insideRegister = {true} />}/>
         <Route path='/services' element={<Services/>}/>
         <Route path='/servicedetails/:id' element={<ServiceDetails/>}/>
+        <Route path='/customer' element={<CustomerDashboard/>}/>
       </Routes>
       <Footer/>
     </>
