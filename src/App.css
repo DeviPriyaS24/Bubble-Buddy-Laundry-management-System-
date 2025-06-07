@@ -9,3 +9,88 @@
   background-size: 100% 100%;
   min-height: 90vh;
 }
+
+/* customer page style */
+.order-card {
+  width: 300px;
+  height: 200px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.order-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+.order-btn {
+  position: relative;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: white;
+  background: #4CAF50;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  transition: background-color 0.4s ease;
+}
+
+.order-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: #2E7D32; 
+  transition: width 0.4s ease;
+  z-index: 0;
+}
+
+.order-btn:hover::before {
+  width: 100%;
+}
+
+.order-btn span {
+  position: relative;
+  z-index: 1;
+}
+
+/* Order details page */
+
+.orderDet-img {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideIn 0.8s ease forwards;
+}
+
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* service details page */
+.serviceDet-img {
+  width: 100%;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideIn 0.8s ease forwards;
+}
+
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

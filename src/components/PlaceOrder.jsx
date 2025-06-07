@@ -14,7 +14,7 @@ const PlaceOrder = () => {
     <>
         <div className='m-4'>
             <h3>Place Order | Order Details</h3>
-            <Button onClick={handleShow}>Place New Order</Button>
+            <button className="order-btn" onClick={handleShow}><span className='fw-bolder'>Place New Order</span></button>
 
             <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>

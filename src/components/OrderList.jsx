@@ -9,7 +9,7 @@ const OrderList = () => {
         <h1 className="text-center fw-bolder">Active Orders</h1>
         <div className="row container mb-4">
           <div className="col-lg-3">
-            <Card style={{ width: "18rem" }}>
+            <Card className="order-card" style={{ width: "18rem" }}>
               <Card.Img variant="top" src="https://www.shutterstock.com/shutterstock/videos/1065989065/thumb/1.jpg?ip=x480" />
               <Card.Body>
                 <Card.Title className="text-center fw-bolder">Service Title</Card.Title>
@@ -18,7 +18,7 @@ const OrderList = () => {
             </Card>
           </div>
           <div className="col-lg-3">
-            <Card style={{ width: "18rem" }}>
+            <Card className="order-card" style={{ width: "18rem" }}>
               <Card.Img variant="top" src="https://www.shutterstock.com/shutterstock/videos/1065989065/thumb/1.jpg?ip=x480" />
               <Card.Body>
                 <Card.Title className="text-center fw-bolder">Service Title</Card.Title>
@@ -27,7 +27,7 @@ const OrderList = () => {
             </Card>
           </div>
           <div className="col-lg-3">
-            <Card style={{ width: "18rem" }}>
+            <Card className="order-card" style={{ width: "18rem" }}>
               <Card.Img variant="top" src="https://www.shutterstock.com/shutterstock/videos/1065989065/thumb/1.jpg?ip=x480" />
               <Card.Body>
                 <Card.Title className="text-center fw-bolder">Service Title</Card.Title>
@@ -36,7 +36,7 @@ const OrderList = () => {
             </Card>
           </div>
           <div className="col-lg-3">
-            <Card style={{ width: "18rem" }}>
+            <Card className="order-card" style={{ width: "18rem" }}>
               <Card.Img variant="top" src="https://www.shutterstock.com/shutterstock/videos/1065989065/thumb/1.jpg?ip=x480" />
               <Card.Body>
                 <Card.Title className="text-center fw-bolder">Service Title</Card.Title>
@@ -48,7 +48,7 @@ const OrderList = () => {
 
         <div className="row container mb-4">
           <div className="col-lg-3">
-            <Card style={{ width: "18rem" }}>
+            <Card className="order-card" style={{ width: "18rem" }}>
               <Card.Img variant="top" src="https://www.shutterstock.com/shutterstock/videos/1065989065/thumb/1.jpg?ip=x480" />
               <Card.Body>
                 <Card.Title className="text-center fw-bolder">Service Title</Card.Title>
@@ -57,7 +57,7 @@ const OrderList = () => {
             </Card>
           </div>
           <div className="col-lg-3">
-            <Card style={{ width: "18rem" }}>
+            <Card className="order-card" style={{ width: "18rem" }}>
               <Card.Img variant="top" src="https://www.shutterstock.com/shutterstock/videos/1065989065/thumb/1.jpg?ip=x480" />
               <Card.Body>
                 <Card.Title className="text-center fw-bolder">Service Title</Card.Title>
@@ -66,7 +66,7 @@ const OrderList = () => {
             </Card>
           </div>
           <div className="col-lg-3">
-            <Card style={{ width: "18rem" }}>
+            <Card className="order-card" style={{ width: "18rem" }}>
               <Card.Img variant="top" src="https://www.shutterstock.com/shutterstock/videos/1065989065/thumb/1.jpg?ip=x480" />
               <Card.Body>
                 <Card.Title className="text-center fw-bolder">Service Title</Card.Title>
@@ -75,7 +75,7 @@ const OrderList = () => {
             </Card>
           </div>
           <div className="col-lg-3">
-            <Card style={{ width: "18rem" }}>
+            <Card className="order-card" style={{ width: "18rem" }}>
               <Card.Img variant="top" src="https://www.shutterstock.com/shutterstock/videos/1065989065/thumb/1.jpg?ip=x480" />
               <Card.Body>
                 <Card.Title className="text-center fw-bolder">Service Title</Card.Title>

@@ -7,11 +7,11 @@ const OrderDetails = () => {
       <div className="row container m-5">
         <div className="col-lg-6">
           <img
-            className="rounded-5 shadow"
+            className="orderDet-img rounded-5 shadow"
             src="https://www.shutterstock.com/shutterstock/videos/1065989065/thumb/1.jpg?ip=x480"
             alt=""
           />
-          <h2>Service Title</h2>
+          <h2 className="mt-2 fw-bolder">Service Title</h2>
         </div>
 
         <div className="col-lg-6">
