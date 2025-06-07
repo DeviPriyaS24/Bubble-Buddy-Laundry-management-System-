@@ -8,7 +8,7 @@ import Header from "./components/Header";
 import Services from "./pages/Services";
 import ServiceDetails from "./pages/ServiceDetails";
 import CustomerDashboard from "./pages/CustomerDashboard";
-
+import OrderDetails from "./pages/OrderDetails";
 
 
 
@@ -25,6 +25,7 @@ function App() {
         <Route path='/services' element={<Services/>}/>
         <Route path='/servicedetails/:id' element={<ServiceDetails/>}/>
         <Route path='/customer' element={<CustomerDashboard/>}/>
+        <Route path='order_details/:id' element={<OrderDetails/>}/>
       </Routes>
       <Footer/>
     </>
