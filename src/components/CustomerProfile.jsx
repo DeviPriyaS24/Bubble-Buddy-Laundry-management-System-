@@ -28,7 +28,7 @@ const CustomerProfile = () => {
           <Link style={{ textDecoration: "none" }}>
             <i class="fa-solid fa-clock-rotate-left"></i> Track Service orders
           </Link>
-          <Link style={{ textDecoration: "none" }}>
+          <Link to='/order_history' style={{ textDecoration: "none" }}>
             <i class="fa-solid fa-calendar-days"></i> View Order History
           </Link>
           <Link style={{ textDecoration: "none" }}>
