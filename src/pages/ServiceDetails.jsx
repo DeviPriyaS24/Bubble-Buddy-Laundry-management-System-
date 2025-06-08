@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from 'react-bootstrap'
 
 const ServiceDetails = () => {
   return (
@@ -21,6 +22,7 @@ const ServiceDetails = () => {
                     <h4>Allowed clothing items : <span className='text-secondary fw-bolder'>Jeans</span></h4>
                     <hr />
                     <h4>Fabrics supported : <span className='text-secondary fw-bolder'>cotton</span></h4>
+                    <div className='text-center mt-4'><Button>Book Service</Button></div>
                 </div>
             </div>
         </div>

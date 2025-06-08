@@ -10,6 +10,7 @@ import ServiceDetails from "./pages/ServiceDetails";
 import CustomerDashboard from "./pages/CustomerDashboard";
 import OrderDetails from "./pages/OrderDetails";
 import OrderHistory from "./pages/OrderHistory";
+import AvailableServices from "./pages/AvailableServices";
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='/customer' element={<CustomerDashboard/>}/>
         <Route path='/order_details/:id' element={<OrderDetails/>}/>
         <Route path='/order_history' element={<OrderHistory/>}/>
+        <Route path='/available_services' element={<AvailableServices/>}/>
       </Routes>
       <Footer/>
     </>

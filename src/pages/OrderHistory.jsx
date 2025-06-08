@@ -15,6 +15,7 @@ const OrderHistory = () => {
           <thead>
             <tr>
               <th>#</th>
+              <th>Order id</th>
               <th>Service Name</th>
               <th>Service Category</th>
               <th>Date</th>
@@ -24,18 +25,16 @@ const OrderHistory = () => {
           <tbody>
             <tr>
               <td>1</td>
-              <td>
-                <Link>Washing</Link>
-              </td>
+              <td>201</td>
+              <td>Washing</td>
               <td>Urgent</td>
               <td>24/11/2001</td>
               <td>1000</td>
             </tr>
             <tr>
               <td>2</td>
-              <td>
-                <Link>Folding</Link>
-              </td>
+              <td>202</td>
+              <td>Folding</td>
               <td>Normal</td>
               <td>06/01/1999</td>
               <td>150</td>

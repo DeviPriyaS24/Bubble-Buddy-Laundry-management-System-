@@ -22,7 +22,7 @@ const CustomerProfile = () => {
           <Link style={{ textDecoration: "none" }}>
             <i class="fa-solid fa-user"></i> Profile
           </Link>
-          <Link style={{ textDecoration: "none" }}>
+          <Link to='/available_services' style={{ textDecoration: "none" }}>
             <i class="fa-solid fa-basket-shopping"></i> Book laundry services
           </Link>
           <Link style={{ textDecoration: "none" }}>
