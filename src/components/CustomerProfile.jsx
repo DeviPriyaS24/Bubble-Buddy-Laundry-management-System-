@@ -19,13 +19,13 @@ const CustomerProfile = () => {
         <h3 className="text-center fw-bolder">Customer Name</h3>
         <hr />
         <div className="pro-links d-flex flex-column ms-3 fs-5 fw-bolder gap-3">
-          <Link style={{ textDecoration: "none" }}>
+          <Link to='/manage_profile' style={{ textDecoration: "none" }}>
             <i class="fa-solid fa-user"></i> Profile
           </Link>
           <Link to='/available_services' style={{ textDecoration: "none" }}>
             <i class="fa-solid fa-basket-shopping"></i> Book laundry services
           </Link>
-          <Link style={{ textDecoration: "none" }}>
+          <Link to='/active_orders' style={{ textDecoration: "none" }}>
             <i class="fa-solid fa-clock-rotate-left"></i> Track Service orders
           </Link>
           <Link to='/order_history' style={{ textDecoration: "none" }}>

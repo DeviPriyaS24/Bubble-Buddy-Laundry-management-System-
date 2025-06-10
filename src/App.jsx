@@ -11,7 +11,8 @@ import CustomerDashboard from "./pages/CustomerDashboard";
 import OrderDetails from "./pages/OrderDetails";
 import OrderHistory from "./pages/OrderHistory";
 import AvailableServices from "./pages/AvailableServices";
-
+import ActiveOrders from "./pages/ActiveOrders";
+import ManageCustProfile from "./pages/ManageCustProfile";
 
 
 
@@ -29,6 +30,8 @@ function App() {
         <Route path='/order_details/:id' element={<OrderDetails/>}/>
         <Route path='/order_history' element={<OrderHistory/>}/>
         <Route path='/available_services' element={<AvailableServices/>}/>
+        <Route path='/active_orders' element={<ActiveOrders/>}/>
+        <Route path='/manage_profile' element={<ManageCustProfile/>}/>
       </Routes>
       <Footer/>
     </>
