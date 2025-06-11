@@ -13,7 +13,8 @@ import OrderHistory from "./pages/OrderHistory";
 import AvailableServices from "./pages/AvailableServices";
 import ActiveOrders from "./pages/ActiveOrders";
 import ManageCustProfile from "./pages/ManageCustProfile";
-
+import AdminDashboard from "./pages/AdminDashboard";
+import CustomersList from "./pages/CustomersList";
 
 
 function App() {
@@ -32,6 +33,8 @@ function App() {
         <Route path='/available_services' element={<AvailableServices/>}/>
         <Route path='/active_orders' element={<ActiveOrders/>}/>
         <Route path='/manage_profile' element={<ManageCustProfile/>}/>
+        <Route path='/admin' element={<AdminDashboard/>}/>
+        <Route path='/customers_list' element={<CustomersList/>}/>
       </Routes>
       <Footer/>
     </>

@@ -6,7 +6,7 @@ import { Button } from "react-bootstrap";
 const ManageCustProfile = () => {
   return (
     <>
-      <div className="container-fluid my-3">
+      <div className="container-fluid my-3" >
         <h1>Manage Your Profile | Customer profile</h1>
         <h2>
           Welcome <span className="text-warning fw-bolder">Customer name</span>

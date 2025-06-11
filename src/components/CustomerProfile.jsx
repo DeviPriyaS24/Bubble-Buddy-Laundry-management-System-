@@ -31,7 +31,7 @@ const CustomerProfile = () => {
           <Link to='/order_history' style={{ textDecoration: "none" }}>
             <i class="fa-solid fa-calendar-days"></i> View Order History
           </Link>
-          <Link style={{ textDecoration: "none" }}>
+          <Link to='/' style={{ textDecoration: "none" }}>
             <i class="fa-solid fa-right-from-bracket"></i> Logout
           </Link>
         </div>
