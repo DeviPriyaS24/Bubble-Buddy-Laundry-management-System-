@@ -15,6 +15,7 @@ import ActiveOrders from "./pages/ActiveOrders";
 import ManageCustProfile from "./pages/ManageCustProfile";
 import AdminDashboard from "./pages/AdminDashboard";
 import CustomersList from "./pages/CustomersList";
+import AddStaff from "./pages/AddStaff";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path='/manage_profile' element={<ManageCustProfile/>}/>
         <Route path='/admin' element={<AdminDashboard/>}/>
         <Route path='/customers_list' element={<CustomersList/>}/>
+        <Route path='/add_staff' element={<AddStaff/>}/>
       </Routes>
       <Footer/>
     </>

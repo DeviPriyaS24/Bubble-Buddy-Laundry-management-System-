@@ -21,7 +21,7 @@ const AdminDashboard = () => {
               <Link to='/customers_list' style={{ textDecoration: "none" }}>Manage Customers</Link>
             </h4>
             <h4>
-              <Link style={{ textDecoration: "none" }}>Add Staffs</Link>
+              <Link to='/add_staff' style={{ textDecoration: "none" }}>Add Staffs</Link>
             </h4>
             <h4>
               <Link to="/services" style={{ textDecoration: "none" }}>
